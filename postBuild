@@ -1,0 +1,8 @@
+#!/bin/bash
+
+filename="msjh.ttf"
+fileid="14Lluj_bcVMVMib03dVsQCPIihtO2uexn"
+curl -L -o ${filename} "https://drive.google.com/uc?export=download&id=${fileid}"
+
+cp msjh.ttf ~/.fonts/
+fc-cache -fv
