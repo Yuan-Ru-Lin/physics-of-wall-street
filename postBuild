@@ -1,9 +1,5 @@
 #!/bin/bash
 
-filename="msjh.ttf"
-fileid="14Lluj_bcVMVMib03dVsQCPIihtO2uexn"
-curl -L -o ${filename} "https://drive.google.com/uc?export=download&id=${fileid}"
-
 mkdir ~/.fonts
-cp msjh.ttf ~/.fonts/
+cp NotoSansCJKtc-Regular.otf ~/.fonts/
 fc-cache -fv
